@@ -105,6 +105,43 @@ builder.Services.AddEndpointsApiExplorer();
 var app = builder.Build();
 
 // =============================
+// Seeder Admin (Run only once)
+// =============================
+using (var scope = app.Services.CreateScope())
+{
+    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+
+    var roles = new[] { "Admin", "Member" };
+    foreach (var role in roles)
+    {
+        if (!await roleManager.RoleExistsAsync(role))
+        {
+            await roleManager.CreateAsync(new IdentityRole(role));
+        }
+    }
+
+    var existingAdmin = await userManager.FindByNameAsync("admin");
+    if (existingAdmin == null)
+    {
+        var admin = new ApplicationUser
+        {
+            UserName = "admin",
+            FullName = "Super Admin",
+            Email = "admin@onemanager.local",
+            LanguagePreference = "id"
+        };
+
+        var result = await userManager.CreateAsync(admin, "Admin123!");
+        if (result.Succeeded)
+        {
+            await userManager.AddToRoleAsync(admin, "Admin");
+            Console.WriteLine("✅ Admin default berhasil dibuat (admin / Admin123!)");
+        }
+    }
+}
+
+// =============================
 // Middleware Pipeline
 // =============================
 
