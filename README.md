@@ -20,15 +20,16 @@ npm install
 npm run dev
 ```
 
-✨ Fitur
+##✨ Fitur
+
 Login dengan JWT
 
 Role: Admin & Member
 
-CRUD Mahasiswa & User
+CRUD Admin & Member
 
-Forum ala Threads (Post + Gambar)
+Forum (Post + Gambar)
 
 Reset Password + Edit Role (Admin only)
 
-Settings: ubah profil & bahasa
+Settings: ubah profil
