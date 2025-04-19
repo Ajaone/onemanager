@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\OneManager\\wwwroot\\uploads\\f70a886c-8944-4605-80c8-d0760fc9679d.jpg",
+      "PackagePath": "staticwebassets\\uploads\\f70a886c-8944-4605-80c8-d0760fc9679d.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OneManager.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OneManager.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.OneManager.props",
+      "PackagePath": "build\\OneManager.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.OneManager.props",
+      "PackagePath": "buildMultiTargeting\\OneManager.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.OneManager.props",
+      "PackagePath": "buildTransitive\\OneManager.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
