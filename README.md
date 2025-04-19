@@ -11,6 +11,8 @@ onemanager/
 ## 🚀 Cara Menjalankan
 
 ### Backend (ASP.NET)
+### Frontend (React JS)
+
 ```bash
 cd backend
 dotnet run
@@ -20,7 +22,7 @@ npm install
 npm run dev
 ```
 
-##✨ Fitur
+## ✨ Fitur
 
 Login dengan JWT
 
