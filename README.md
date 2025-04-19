@@ -10,9 +10,6 @@ onemanager/
 
 ## 🚀 Cara Menjalankan
 
-### Backend (ASP.NET)
-### Frontend (React JS)
-
 ```bash
 cd backend
 dotnet run
@@ -21,6 +18,7 @@ cd frontend
 npm install
 npm run dev
 ```
+## 🚀 Via Docker
 
 ## ✨ Fitur
 
