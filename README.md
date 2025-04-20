@@ -15,7 +15,6 @@ cd backend
 dotnet run
 
 cd frontend
-npm install
 npm run dev
 ```
 
