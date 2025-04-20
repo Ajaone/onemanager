@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OneManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acc81b10a87a09a8982aeb2e36a4796875f8ef4e")]
 [assembly: System.Reflection.AssemblyProductAttribute("OneManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OneManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

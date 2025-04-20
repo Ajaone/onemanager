@@ -3487,11 +3487,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\OneManager\\OneManager.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\OneManager\\backend\\OneManager.csproj",
       "projectName": "OneManager",
-      "projectPath": "C:\\Users\\Asus\\source\\repos\\OneManager\\OneManager.csproj",
+      "projectPath": "C:\\Users\\Asus\\source\\repos\\OneManager\\backend\\OneManager.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\source\\repos\\OneManager\\obj\\",
+      "outputPath": "C:\\Users\\Asus\\source\\repos\\OneManager\\backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

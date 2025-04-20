@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0YjUAOci6Ppf5mMQAAuVIPyTcTXe4dc5lUfsVfsT8LU=",
+  "Hash": "+y3+UC//jNrfBued2Pl9Du2Pggw8Is+FjlHowzhWhcQ=",
   "Source": "OneManager",
   "BasePath": "_content/OneManager",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "OneManager\\wwwroot",
       "Source": "OneManager",
-      "ContentRoot": "C:\\Users\\Asus\\source\\repos\\OneManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Asus\\source\\repos\\OneManager\\backend\\wwwroot\\",
       "BasePath": "_content/OneManager",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Asus\\source\\repos\\OneManager\\wwwroot\\uploads\\f70a886c-8944-4605-80c8-d0760fc9679d.jpg",
+      "Identity": "C:\\Users\\Asus\\source\\repos\\OneManager\\backend\\wwwroot\\uploads\\f70a886c-8944-4605-80c8-d0760fc9679d.jpg",
       "SourceId": "OneManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Asus\\source\\repos\\OneManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Asus\\source\\repos\\OneManager\\backend\\wwwroot\\",
       "BasePath": "_content/OneManager",
       "RelativePath": "uploads/f70a886c-8944-4605-80c8-d0760fc9679d#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -41,7 +41,7 @@
   "Endpoints": [
     {
       "Route": "uploads/f70a886c-8944-4605-80c8-d0760fc9679d.jpg",
-      "AssetFile": "C:\\Users\\Asus\\source\\repos\\OneManager\\wwwroot\\uploads\\f70a886c-8944-4605-80c8-d0760fc9679d.jpg",
+      "AssetFile": "C:\\Users\\Asus\\source\\repos\\OneManager\\backend\\wwwroot\\uploads\\f70a886c-8944-4605-80c8-d0760fc9679d.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -78,7 +78,7 @@
     },
     {
       "Route": "uploads/f70a886c-8944-4605-80c8-d0760fc9679d.vbi8qa9l7m.jpg",
-      "AssetFile": "C:\\Users\\Asus\\source\\repos\\OneManager\\wwwroot\\uploads\\f70a886c-8944-4605-80c8-d0760fc9679d.jpg",
+      "AssetFile": "C:\\Users\\Asus\\source\\repos\\OneManager\\backend\\wwwroot\\uploads\\f70a886c-8944-4605-80c8-d0760fc9679d.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
